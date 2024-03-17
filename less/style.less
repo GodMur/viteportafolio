@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@primary-background-color:#f5f5f5;
+@primary-text-color:#333;
+
+@secundary-background-color:#000;
+@secundary-text-color:#fff;
+
+@sizes {
+    tablet: 720px;
+    desktop: 1025px;
+    }
+
+@import url(header.less);
+@import url(hero.less);
+@import url(testimonials.less);
+@import url(footer.less);
+@import url(quotes.less);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:@primary-background-color;
+    color:@primary-text-color;
+    font-family: 'Roboto', sans-serif;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio GodMur S.A</title>
+    <link rel="stylesheet" href="less/style.less">
+</head>
+
+<body>
+    {{> headers}}
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="/Imagenes/fondo2.jpg" media="(min-width: 1024px)">
+                <source srcset="/Imagenes/fondo2.jpg" media="(min-width: 720px)">
+                <img src="/Imagenes/fondo2.jpg" alt="GodMur">
+            </picture>
+            <h2>Ing. Daniel Adaly Godoy Murillo<br>Soporte Tecnico, Desarrollo, Diseño y Mas</h2>
+             <a href="">GodMur@gmail.com </a></span>
+            
+        </section>
+        {{> testimonials}}
+        {{> quotes}}
+                
+    </main>
+    {{> footer}}
+</body>
+
+</html>

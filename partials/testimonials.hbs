@@ -1,0 +1,14 @@
+<section class="testimonials">
+            <h2>Servicios</h2>
+            <section class="testimonials-container">
+                {{#each testimonials}}
+                <div class="testimonial">
+                    <img src="{{imgUrl}}" alt={{name}}>
+                    <div>
+                        <h3>{{name}}</h3>
+                        <p>{{content}}</p>
+                    </div>
+                </div> 
+                {{/each}}               
+            </section>
+        </section>
